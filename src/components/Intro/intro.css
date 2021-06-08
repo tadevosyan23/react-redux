@@ -1,0 +1,56 @@
+.hero {
+    height: 200px;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+}
+
+form input,
+form button {
+    font-weight: bold;
+    outline: none;
+    padding: 12px 20px;
+    font-size: 18px;
+    border-radius: 30px;
+}
+
+form input {
+    color: #000;
+    margin-right: 10px;
+}
+
+form input:hover {
+    background: transparent;
+    transition: 0.5s ease-in-out;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+form input::-webkit-input-placeholder {
+    color: #fff;
+}
+
+form button {
+    background-color: #fff;
+    color: brown;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: transparent;
+    transition: 0.5s ease-in-out;
+    color: #fff;
+    border: 2px solid #fff;
+}
